@@ -1,3 +1,4 @@
+# testing CI/CD pipeline
 locals {
   common_tags = {
     Project     = "Project2"
