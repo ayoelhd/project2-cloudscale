@@ -54,7 +54,7 @@ A fully automated Infrastructure-as-Code pipeline that:
                           │  └──────────────────────────┘  │
                           └────────────────────────────────┘
 
-Docker Hub:  yourname/cloudscale-app:latest
+Docker Hub:  ayoelhd/cloudscale-app:latest
              ↑ built & pushed manually (or via separate workflow)
 ```
 
@@ -166,28 +166,28 @@ Copy the output values into your GitHub Secrets.
 > Replace each placeholder below with your actual screenshots.
 
 ### 1. Docker image build successful
-![docker-build](screenshots/1-docker-build.png)
+![docker-build](screenshots/1-dockerbuild.png)
 
 ### 2. Docker image pushed to Docker Hub
-![docker-push](screenshots/2-docker-push.png)
+![docker-push](screenshots/2-dockerpush.png)
 
 ### 3. terraform plan output
-![tf-plan](screenshots/3-tf-plan.png)
+![tf-plan](screenshots/3-terraformplan.png)
 
 ### 4. terraform apply output
-![tf-apply](screenshots/4-tf-apply.png)
+![tf-apply](screenshots/4-terraformapply.png)
 
 ### 5. GitHub Actions – successful plan on PR
-![actions-plan](screenshots/5-actions-plan.png)
+![actions-plan](screenshots/5-ActionsPlan.png)
 
 ### 6. GitHub Actions – approved apply
-![actions-apply](screenshots/6-actions-apply.png)
+![actions-apply](screenshots/6-ActionsApply.png)
 
 ### 7. Browser showing containerized web app
 ![browser](screenshots/7-browser.png)
 
 ### 8. Azure Portal – resource group and resources
-![azure-portal](screenshots/8-azure-portal.png)
+![azure-portal](screenshots/8-azureRG.png)
 
 ---
 
