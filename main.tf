@@ -19,7 +19,7 @@ resource "azurerm_container_group" "app" {
   location            = azurerm_resource_group.main.location
   resource_group_name = azurerm_resource_group.main.name
   ip_address_type     = "Public"
-  dns_name_label      = "${var.student_name}-proj2-app"   # → <label>.eastus.azurecontainer.io
+  dns_name_label      = "${var.student_name}-proj2-app" # → <label>.eastus.azurecontainer.io
   os_type             = "Linux"
   tags                = local.common_tags
 

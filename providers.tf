@@ -12,7 +12,7 @@ terraform {
   # Fill in after you create the storage account (see README setup step)
   backend "azurerm" {
     resource_group_name  = "tfstate-rg"
-    storage_account_name = "tfstateyourname"   # must be globally unique & lowercase
+    storage_account_name = "tfstateyourname" # must be globally unique & lowercase
     container_name       = "tfstate"
     key                  = "project2.terraform.tfstate"
   }
