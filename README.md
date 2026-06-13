@@ -1,4 +1,4 @@
-# Project 2 – Infrastructure as Code with Terraform & Azure ACI
+# Project 2 V2 - Infrastructure as Code with Terraform & Azure ACI
 
 ## Authors
 
@@ -92,7 +92,7 @@ docker run -p 8080:80 DOCKERHUB_USERNAME/cloudscale-app:latest
 az login
 
 # Create resource group for Terraform state
-az group create --name tfstate-rg --location eastus
+az group create --name tfstate-rg --location spaincentral
 
 # Create storage account (name must be globally unique, lowercase)
 az storage account create \
