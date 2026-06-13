@@ -163,8 +163,6 @@ Copy the output values into your GitHub Secrets.
 
 ## Screenshots
 
-> Replace each placeholder below with your actual screenshots.
-
 ### 1. Docker image build successful
 ![docker-build](screenshots/1-dockerbuild.png)
 
